@@ -162,6 +162,10 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
               <Grid item xs={1}>  
                 <Button size="small" variant="outlined" onClick={handleCloseEditar}>Cancelar</Button>  
               </Grid>
+
+              <Grid item xs={1}>  
+                <Button size="small" variant="outlined" onClick={handleCloseEditar}>Sair</Button>  
+              </Grid>
             </Grid>  
           </Grid>
         </CardContent>
